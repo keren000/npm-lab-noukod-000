@@ -7,13 +7,11 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
   },
   "dependencies": {
-    "learn-browser": "^0.1.24",
-    "moment": "^2.24.0",
-    "pkg": "^4.3.7"
-  },
+  "learn-browser": "^0.1.17"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/keren000/npm-lab-noukod-000.git"
