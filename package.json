@@ -10,8 +10,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-  "learn-browser": "^0.1.17"
-},
+    "learn-browser": "^0.1.17",
+    "pkg": "^4.3.7"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/keren000/npm-lab-noukod-000.git"
